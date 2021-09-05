@@ -89,4 +89,4 @@ def inference(img1_path: str, img2_path: str, is_lr=False) -> Dict[str, Union[fl
 img1_file = args[1] # img file path 1
 img2_file = args[2] # img file path 2
 is_weights = args[3] # load pretrained asia face weights?
-inference(img1_file, str(img2_file), str(is_weights))
+inference(str(img1_file), str(img2_file), is_weights)
